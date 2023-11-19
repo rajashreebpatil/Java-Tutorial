@@ -1,0 +1,11 @@
+
+public class V96_Date_time {
+public static void main(String[] args) {
+	
+	System.out.println(System.currentTimeMillis()/1000/3600/365/24);
+	
+	// op -53 from 1970
+
+	
+}
+}

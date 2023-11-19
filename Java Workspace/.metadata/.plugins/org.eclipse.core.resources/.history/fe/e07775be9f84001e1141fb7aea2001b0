@@ -1,0 +1,31 @@
+
+
+ class Two extends One{
+	@Override
+	 public void greet() {
+	 System.out.println("good ");
+	}
+ }
+	 
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class V108_Annotation {
+public static void main(String[] args) {
+	
+	Two c = new Two();
+	
+	c.greet();
+}
+}

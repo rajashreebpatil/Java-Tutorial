@@ -1,0 +1,16 @@
+
+public class V111_File_handling { 
+	public static void main(String[] args) {
+		
+		File my= new  File("cwh111");
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+}

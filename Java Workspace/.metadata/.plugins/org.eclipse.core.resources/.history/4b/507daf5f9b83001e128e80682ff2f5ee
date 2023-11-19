@@ -1,0 +1,27 @@
+
+  // VIDEO 98 CALENDAR CLASSS IN JAVA
+
+
+import java.util.Calendar;
+import java.util.TimeZone;
+
+public class V98_Calendr {
+public static void main(String[] args) {
+	
+	
+/*	Calendar c = Calendar.getInstance();
+	System.out.println(c.getCalendarType());
+	System.out.println(c.getTimeZone());  */
+	
+	// opgregory
+	//sun.util.calendar.ZoneInfo[id="Asia/Calcutta
+	
+	Calendar c = Calendar.getInstance(TimeZone.getTimeZone("Asia/Singapur"));
+	System.out.println(c.getCalendarType());
+	System.out.println(c.getTimeZone().getID());
+	
+	// op gregory
+	// GMT
+
+}
+}

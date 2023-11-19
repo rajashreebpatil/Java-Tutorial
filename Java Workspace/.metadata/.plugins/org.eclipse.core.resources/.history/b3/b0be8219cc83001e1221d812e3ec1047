@@ -1,0 +1,49 @@
+import java.util.ArrayList;
+
+// VIDEO 102 = CREATE AN ARARYLIST AND STORE A0 STUDENT NAME
+
+public class V102_Advance_Java_Practise {
+public static void main(String[] args) {
+	
+	ArrayList ar= new ArrayList();
+	
+	ar.add("student 1");
+	ar.add("student 2");
+	ar.add("student 3");
+	ar.add("student 4");
+	ar.add("student 5");
+	ar.add("student 6");
+	ar.add("student 7");
+	ar.add("student 8");
+	ar.add("student 9");
+	ar.add("student 10");
+	
+	for(object o: ar) {
+		System.out.println(o);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+
+public class V98_Calendr {
+public static void main(String[] args) {
+	
+	
+	Calendar c = calender.getInstance();
+	System.out.println(c.getCalenderType());
+	System.out.println(c.getTimeZone());
+	
+	
+	
+	
+	
+}
+}

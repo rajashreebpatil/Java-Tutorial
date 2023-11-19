@@ -1,0 +1,18 @@
+import java.util.Calendar;
+
+public class V98_Calendr {
+public static void main(String[] args) {
+	
+	
+	Calendar c = Calendar.getInstance();
+	System.out.println(c.getCalendarType());
+	System.out.println(c.getTimeZone());
+	
+	// opgregory
+	//sun.util.calendar.ZoneInfo[id="Asia/Calcutta
+	
+	Calender c = Calender.getInstance(TimeZone.getTimeZone("Asia/Singapur"));
+	System.out.println(c.getCalenderType());
+	System.out.println(c.getTimeZone());
+}
+}

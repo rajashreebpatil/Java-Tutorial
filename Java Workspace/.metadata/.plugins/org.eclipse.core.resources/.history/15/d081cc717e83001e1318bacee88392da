@@ -1,0 +1,10 @@
+
+public class V97_Date_Class {
+public static void main(String[] args) {
+	
+	Date d =new Date();
+	System.out.println(d);
+	
+	
+}
+}

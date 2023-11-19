@@ -1,0 +1,31 @@
+
+
+ class NewPhone extends Phone{
+	@Override
+	 public void showTime() {
+	 System.out.println("this is 8 pm");
+	}
+ }
+	 
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class V108_Annotation {
+public static void main(String[] args) {
+	
+	NewPhone c = new NewPhone();
+	
+	c.showTime();
+}
+}

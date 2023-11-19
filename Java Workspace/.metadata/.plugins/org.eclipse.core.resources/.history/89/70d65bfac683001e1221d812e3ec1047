@@ -1,0 +1,20 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+// VIDEO 101 - DATE TIME FORMATTER
+
+
+public class V101_Date_time_Formatter {
+public static void main(String[] args) {
+	
+	
+	LocalDateTime m =LocalDateTime.now();
+	System.out.println(m);
+	
+DateTimeFormatter d = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+	String myDate = d.formatm);
+	System.out.println(myDate);
+	
+	
+}
+}
